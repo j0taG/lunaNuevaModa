@@ -1,0 +1,209 @@
+.main-wrapper {
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main"
+    "footer"
+    ;
+}
+
+/*Inicia de Navegador */
+.navegador {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(184, 134, 59);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+
+    grid-area: nav;
+}
+.navegador ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+}
+.navegador a {
+    color: black;
+    text-decoration: none;
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+}
+/* Termina Navegador */
+
+/* Inicia Header */
+
+.header {
+    text-align: center;
+
+    grid-area: header;
+}
+#titulo {
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+}
+.header h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Termina Header */
+
+body {
+    background-color: rgba(28, 160, 24, 0.411);
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Empieza main */
+
+main {
+    grid-area: main;
+}
+
+.productos-1 {
+    display: inline-block;
+}
+.productos-2 {
+    display: inline-block;
+}
+.productos-3 {
+    display: inline-block;
+}
+.productos-4 {
+    display: inline-block;
+}
+
+
+.productos-otono-1 {
+    display: inline-block;
+}
+.productos-otono-2 {
+    display: inline-block;
+}
+.productos-otono-3 {
+    display: inline-block;
+}
+.productos-otono-4 {
+    display: inline-block;
+}
+
+.productos-invierno-1 {
+    display: inline-block;
+}
+.productos-invierno-2 {
+    display: inline-block;
+}
+.productos-invierno-3 {
+    display: inline-block;
+}
+.productos-invierno-4 {
+    display: inline-block;
+}
+
+.productos-primavera-1 {
+    display: inline-block;
+}
+.productos-primavera-2 {
+    display: inline-block;
+}
+.productos-primavera-3 {
+    display: inline-block;
+}
+.productos-primavera-4 {
+    display: inline-block;
+}
+
+.productos-verano-1 {
+    display: inline-block;
+}
+.productos-verano-2 {
+    display: inline-block;
+}
+.productos-verano-3 {
+    display: inline-block;
+}
+.productos-verano-4 {
+    display: inline-block;
+}
+
+
+
+
+.mi-cuenta {
+    font-family: 'Roboto', sans-serif;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mi-cuenta div {
+    margin: 5px;
+}
+/* Inicia Footer */
+#footer {
+    background-color: rgb(184, 134, 59);
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+
+    grid-area: footer;
+}
+#footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+#footer ul {
+    list-style-type: none;
+}
+#footer p {
+    max-width: 500px;
+}
+
+.footer-sobre-nosotros,p {
+    max-width: 80px;
+
+    padding-left: 10px;
+}
+
+.footer-redes-sociales, ul {
+    padding-right: 10px;
+}
+/* Termina Footer */
+
+
+
+
+/* Animaciones y transiciones */
+
+.productos img {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: ease;
+}
+.productos img:hover {
+    transform: scale(1.2);
+}
+
+/* ************** */
+
+@media screen and (min-width: 768) {
+
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
