@@ -1,4 +1,4 @@
-# desafio-7-ch
+# Luna Nueva moda
 Este es un repositorio creado para la comision 36035 de CoderHouse.
 Este proyecto esta realizado en HTML,CSS y SASS.
 EL creador es Joaquin Gonzalez.

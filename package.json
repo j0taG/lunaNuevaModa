@@ -1,0 +1,25 @@
+{
+  "name": "lunanuevamoda-joaquingonzalez",
+  "version": "1.0.0",
+  "description": "Este es un repositorio creado para la comision 36035 de CoderHouse. Este proyecto esta realizado en HTML,CSS y SASS. EL creador es Joaquin Gonzalez.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j0taG/lunaNuevaModa-joaquinGonzalez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j0taG/lunaNuevaModa-joaquinGonzalez/issues"
+  },
+  "homepage": "https://github.com/j0taG/lunaNuevaModa-joaquinGonzalez#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
