@@ -5,68 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../main.css">
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="Luna, Nueva, Moda, tienda, ropa, segunda, mano, vivos, facebook, instagram, jumpsuit, mujer, colores, beige, naranja, talle, comprar">
+
+    <!-- Meta description -->
+    <meta name="description" content="Breve descripción del producto que se está exhibiendo.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../public/favicon-16x16.png">
+
+    <!-- Link a Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Link a mi CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Link a mis fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <title>Luna Nueva moda</title>
+    <title>Luna Nueva moda || Jumpsuit</title>
 </head>
 <body>
-    <div class="main-wrapper">
-        <nav class="navegador">
-            <div>
-                <ul>
-                    <li class="navegador-hogar"><a href="../index.html">Hogar</a></li>
-                    <li class="navegador-colecciones"><a href="colecciones.html">Colecciones</a></li>
-                    <li class="navegador-rebajas"><a href="rebajas.html">Rebajas</a></li>
-                    <li><a href="mi-cuenta.html">Mi Cuenta</a></li>
-                </ul>
+    <div class="main-wrapper background-color-2">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light background-color-1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img id="logo" src="../public/luna-nueva-logo.jpeg" alt="Luna Nueva Moda"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="catalogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rebajas.html">Rebajas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="mi-cuenta.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mi cuenta</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="mi-cuenta.html">Iniciar Sesión</a></li>
+                                <li><a class="dropdown-item" href="">Registrarse</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-    
-            <img id="logo" src="../public/luna-nueva-logo.jpeg" alt="Luna Nueva Logo">
         </nav>
-    
-        <header class="header">
-            <h1>Producto 1</h1>
-        </header>
-    
-        <section>
-            <div class="productos-1">
-                <img src="https://dummyimage.com/200x200/000/fff" alt="Producto 1"><p>$499</p>
+
+        <main>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <img src="../public/1.jpeg" class="img-fluid rounded-start" alt="Prodcuto 1">
+                        <img src="../public/2.jpeg" class="img-fluid rounded-start" alt="Prodcuto 1">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h1 class="card-title">Jumpsuit</h1>
+                            <p class="card-text">Aqui iria una breve descripción del producto presentado.</p>
+                            <p class="card-text"><small class="text-muted">Precio</small></p>
+                            <a href="..." class="btn btn-outline-success">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </main>
     
-        <section class="producto-talles">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Talles</th>
-                    </tr>
-                </thead>
-    
-                <tbody>
-                    <tr>
-                        <td>24</td>
-                    </tr>
-                    <tr>
-                        <td>28</td>
-                    </tr>                
-                    <tr>
-                        <td>30</td>
-                    </tr>                
-                    <tr>
-                        <td>34</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    
-        <footer id="footer">
+        <footer class="footer background-color-1">
             <div>
-                <h4 class="footer-sobre-nosotros">Sobre Nosotros</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quaerat quisquam unde consequuntur hic. Velit, exercitationem ducimus, quibusdam aspernatur sunt laboriosam labore impedit deleniti corporis nobis, sed cum eius. Et?</p>
+                <h4 class="footer-ubicacion">Ubicacion</h4>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822.3454361840221!2d-57.84089901193826!3d-34.467838893109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a31265b17e764b%3A0x598f88a5560926b5!2sDomingo%20Baqu%C3%A9%20332%2C%2070000%20Col%20Del%20Sacramento%2C%20Departamento%20de%20Colonia!5e0!3m2!1ses-419!2suy!4v1649783750769!5m2!1ses-419!2suy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <div>
                 <h4 class="footer-compras">Compras</h4>
@@ -74,7 +92,6 @@
                     <li>Como comprar</li>
                     <li>Envios</li>
                     <li>Cambios</li>
-                    <li><a href="ubicacion.html">Nuestra Ubicacion</a></li>
                 </ul>
             </div>
             <div>
@@ -87,6 +104,8 @@
             </div>
         </footer>
     </div>
-    
+
+        <!-- Link a JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

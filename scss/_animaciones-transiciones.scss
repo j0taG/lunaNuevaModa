@@ -1,0 +1,15 @@
+/* Animaciones y transiciones */
+
+.productos img {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: ease;
+
+}
+
+.productos img:hover {
+    transform: scale(1.1);
+}
+
+/* Termina estilado de animaciones y transiciones */

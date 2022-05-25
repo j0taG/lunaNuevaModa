@@ -1,0 +1,87 @@
+.background-color-1 {
+  background-color: #d89e48; }
+
+.background-color-2 {
+  background-color: rgba(60, 160, 56, 0.509); }
+
+/* Inicio de Navegador */
+#logo {
+  width: 50px;
+  height: 50px; }
+
+/* Termina Navegador */
+/* Inicia Header */
+.header {
+  text-align: center; }
+
+.titulo {
+  font-family: "Allura", cursive;
+  font-size: 60px; }
+
+/* Termina Header */
+/* Empieza main */
+body {
+  margin: 0px;
+  padding: 0px; }
+
+.mi-cuenta {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .mi-cuenta div {
+    margin: 5px; }
+
+.productos img {
+  width: 250px;
+  height: 250px; }
+
+.rebajas img {
+  width: 250px;
+  height: 250px; }
+
+.producto-1 img {
+  width: 280px;
+  height: 280px; }
+
+/* Termina main */
+/* Inicia Footer */
+.footer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500; }
+  .footer ul {
+    list-style-type: none; }
+  .footer p {
+    max-width: 300px; }
+
+.footer-ubicacion {
+  max-width: 25%; }
+
+/* Termina Footer */
+/* Animaciones y transiciones */
+.productos img {
+  transition-property: all;
+  transition-duration: .3s;
+  transition-delay: .2s;
+  transition-timing-function: ease; }
+
+.productos img:hover {
+  transform: scale(1.1); }
+
+/* Termina estilado de animaciones y transiciones */
+/* ************** */
+@media screen and (min-width: 768) {
+  #logo {
+    height: 50px;
+    width: 50px; }
+  .mapa {
+    width: 50%;
+    height: 100px; } }
+
+/* ************** */
