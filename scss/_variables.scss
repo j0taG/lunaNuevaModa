@@ -1,0 +1,24 @@
+// Variables
+
+
+$font-1: 'Roboto', sans-serif;
+$font-2: 'Allura', cursive;
+
+// Mixins
+@mixin img-size {
+    width: 250px;
+    height: 250px;
+};
+
+// Mapas
+$background: (
+    color-1: rgb(216, 158, 72),
+    color-2: rgba(60, 160, 56, 0.509),
+);
+
+
+@each $back, $background-color in $background {
+    .background-#{$back} {
+        background-color: $background-color;
+    }
+}

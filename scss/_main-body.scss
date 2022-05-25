@@ -1,0 +1,36 @@
+
+/* Empieza main */
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.mi-cuenta {
+    font-family: $font-1;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div {
+        margin: 5px;
+    }
+}
+
+.productos img {
+    @include img-size;
+}
+
+.rebajas img {
+    @include img-size;
+}
+
+.producto-1 img {
+    width: 280px;
+    height: 280px;
+}
+
+/* Termina main */

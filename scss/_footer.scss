@@ -1,0 +1,29 @@
+/* Inicia Footer */
+.footer {
+    font-family: $font-1;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    a {
+        color: black;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    p {
+        max-width: 300px;
+    }
+}
+
+
+.footer-ubicacion {
+    max-width: 25%;
+}
+
+/* Termina Footer */
